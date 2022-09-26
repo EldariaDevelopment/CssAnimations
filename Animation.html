@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>e</title>
+
+<head>
+    <style>
+        .headbar {
+            background-color: rgb(17, 28, 30);
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            color: rgb(214, 222, 122)
+        }
+    </style>
+
+</head>
+
+<head>
+    <style>
+        .section {
+            background-color: rgb(116, 116, 116);
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            color: rgb(214, 222, 122)
+        }
+        
+        .sectionchild {
+            position: ;
+        }
+    </style>
+
+</head>
+
+<head>
+    <style>
+        .parent {
+            background-color: rgb(17, 28, 30);
+            height: 400px;
+            width: 400px;
+        }
+        
+        .child {
+            background-color: rgb(41, 210, 240);
+            height: 50%;
+            width: 50%;
+            transition: 1s ease-in;
+        }
+        
+        .parent:hover .child {
+            background-color: rgb(214, 222, 122);
+            transform: translateX(100%);
+            animation: e 1s ease-in forwards step-end;
+        }
+        
+        @keyframes e {
+            from {
+                transform: translateX(0%) translateY(0%);
+            }
+            to {
+                transform: translateX(100%) translateY(100%);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(17, 28, 30)">
+    <div class="headbar">
+        <h1>Site</h1>
+    </div>
+    <div class="section">
+    </div>
+    <div class="parent">
+        <div class="child">
+        </div>
+    </div>
+</body>
+
+</html>
